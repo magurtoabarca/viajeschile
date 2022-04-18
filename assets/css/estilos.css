@@ -1,0 +1,65 @@
+html{
+    scroll-behavior: auto !important;
+}
+
+body {
+    font-family: Helvetica;
+    background-color: #000000;
+}
+
+/* Navbar */
+
+.navbar{
+    position: fixed; /* menu fijo*/
+    width: 100vw; /*ancho */
+    z-index: 1; /*para que se sobreponga en la sección, estará por encima de hero section */
+}
+
+.navbar-brand{
+    font-family: "Oswald";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Quienes Somos*/
+#QuienesSomos{
+    color: #d3cfcf;
+    font-family: "Open Sans";
+    line-height: 1; /* interlineado*/
+}
+
+#Destacados {
+    background-color: #000000;
+    font-family: "Oswald";
+}
+
+#Destacados h1 {
+    font: 52px;
+}
+
+/* Contacto */
+#Contacto {
+    background-color: #000000;
+    font-family: "Oswald";
+}
+
+#Contacto h1{
+    font-family: "Oswald";
+    font-size: 52px;
+    color: white;
+}
+
+/* Footer */
+#Footer h1{
+    font-family: "Oswald";
+}
+
+#Footer a{
+    color: white;
+    text-decoration: none;
+}
+
+form div {
+    text-align: left;
+    color: white;
+}
